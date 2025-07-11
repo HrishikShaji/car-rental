@@ -7,7 +7,8 @@ const nextConfig: NextConfig = {
   },
   images: {
     remotePatterns: [
-      { hostname: "images.pexels.com", protocol: 'https' }
+      { hostname: "images.pexels.com", protocol: 'https' },
+      { hostname: 'learningdevelopmentcontent.s3.us-west-1.amazonaws.com', protocol: "https" }
     ]
   }
 };
